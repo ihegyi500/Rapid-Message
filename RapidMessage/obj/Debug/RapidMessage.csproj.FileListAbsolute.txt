@@ -50,3 +50,17 @@ I:\IS\RapidMessage\RapidMessage\obj\Debug\RapidMessage.exe
 I:\IS\RapidMessage\RapidMessage\obj\Debug\RapidMessage.pdb
 I:\IS\RapidMessage\RapidMessage\obj\Debug\RapidMessage.PC.resources
 I:\IS\RapidMessage\RapidMessage\obj\Debug\RapidMessage.Software.resources
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.csprojAssemblyReference.cache
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.exe
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.pdb
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\bin\Debug\RapidMessage.exe.config
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\bin\Debug\RapidMessage.exe
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\bin\Debug\RapidMessage.pdb
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.factoryChoices.resources
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.Mainform.resources
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.Mobile.resources
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.PC.resources
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.Properties.Resources.resources
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.Software.resources
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.csproj.GenerateResource.cache
+C:\Users\hegyii71\Desktop\RapidMessage\RapidMessage\obj\Debug\RapidMessage.csproj.CoreCompileInputs.cache

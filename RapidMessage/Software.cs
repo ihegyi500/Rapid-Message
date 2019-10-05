@@ -2,15 +2,12 @@
 
 namespace RapidMessage
 {
-    public partial class Software : RapidMessage.Mobile
+    public partial class Software : Mobile
     {
         public Software(Mainform main) : base(main)
         {
             InitializeComponent();
             Mainlabel.Text = "Szoftverrel kapcsolatos?";
-            Themebutton.Image = Image.FromFile(@"\\KUNSHUFP001\Siteshare\IT\Icons\soft.png");
-            button_MobileReq.Image = Image.FromFile(@"\\KUNSHUFP001\Siteshare\IT\Icons\addsoft.png");
-            button_MobilIssue.Image = Image.FromFile(@"\\KUNSHUFP001\Siteshare\IT\Icons\wrongsoft.png");
         }
 
         protected override void IssueButtonChanger()

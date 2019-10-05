@@ -7,10 +7,6 @@ namespace RapidMessage
         public PC(Mainform main) : base(main)
         {
             InitializeComponent();
-            Mainlabel.Text = "PC-vel/laptoppal kapcsolatos?";
-            Themebutton.Image = Image.FromFile(@"\\KUNSHUFP001\Siteshare\IT\Icons\PCs.png");
-            button_MobileReq.Image = Image.FromFile(@"\\KUNSHUFP001\Siteshare\IT\Icons\addPClaptop.png");
-            button_MobilIssue.Image = Image.FromFile(@"\\KUNSHUFP001\Siteshare\IT\Icons\wrongPClaptop.png");
         }
 
         protected override void IssueButtonChanger()

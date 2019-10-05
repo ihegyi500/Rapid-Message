@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PC));
             this.PCToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
@@ -36,18 +37,26 @@
             // 
             this.button_MobileReq.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button_MobileReq.FlatAppearance.BorderSize = 0;
+            this.button_MobileReq.Image = ((System.Drawing.Image)(resources.GetObject("button_MobileReq.Image")));
             this.PCToolTip.SetToolTip(this.button_MobileReq, "Új PC/Laptop igénylés\r\nNew PC/laptop request\r\nНовий запит на ПК / ноутбук");
             // 
             // button_MobilIssue
             // 
             this.button_MobilIssue.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button_MobilIssue.FlatAppearance.BorderSize = 0;
+            this.button_MobilIssue.Image = ((System.Drawing.Image)(resources.GetObject("button_MobilIssue.Image")));
             this.PCToolTip.SetToolTip(this.button_MobilIssue, "PC/Laptop probléma\r\nPC/laptop issue\r\nПитання для ПК / ноутбука");
             // 
             // Themebutton
             // 
             this.Themebutton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.Themebutton.FlatAppearance.BorderSize = 0;
+            this.Themebutton.Image = ((System.Drawing.Image)(resources.GetObject("Themebutton.Image")));
+            // 
+            // Mainlabel
+            // 
+            this.Mainlabel.Size = new System.Drawing.Size(215, 19);
+            this.Mainlabel.Text = "PC-vel/laptoppal kapcsolatos?";
             // 
             // PC
             // 

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Software));
             this.SWToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
@@ -36,18 +37,26 @@
             // 
             this.button_MobileReq.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button_MobileReq.FlatAppearance.BorderSize = 0;
+            this.button_MobileReq.Image = ((System.Drawing.Image)(resources.GetObject("button_MobileReq.Image")));
             this.SWToolTip.SetToolTip(this.button_MobileReq, "Új szoftver igénylés\r\nNew software request\r\nНовий запит програмного забезпечення");
             // 
             // button_MobilIssue
             // 
             this.button_MobilIssue.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button_MobilIssue.FlatAppearance.BorderSize = 0;
+            this.button_MobilIssue.Image = ((System.Drawing.Image)(resources.GetObject("button_MobilIssue.Image")));
             this.SWToolTip.SetToolTip(this.button_MobilIssue, "Szoftver probléma\r\nSoftware issue\r\nПроблема програмного забезпечення");
             // 
             // Themebutton
             // 
             this.Themebutton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.Themebutton.FlatAppearance.BorderSize = 0;
+            this.Themebutton.Image = ((System.Drawing.Image)(resources.GetObject("Themebutton.Image")));
+            // 
+            // Mainlabel
+            // 
+            this.Mainlabel.Size = new System.Drawing.Size(173, 19);
+            this.Mainlabel.Text = "Szoftverrel kapcsolatos?";
             // 
             // Software
             // 

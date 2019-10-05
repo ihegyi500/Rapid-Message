@@ -1,8 +1,6 @@
-﻿using System.Drawing;
-
-namespace RapidMessage
+﻿namespace RapidMessage
 {
-    public partial class PC : RapidMessage.Mobile
+    public partial class PC : Mobile
     {
         public PC(Mainform main) : base(main)
         {

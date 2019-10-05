@@ -6,13 +6,9 @@ namespace RapidMessage
     public partial class Mobile : Form
     {
         protected Mainform form1;
-        public Mobile()
+        public Mobile(Mainform main)
         {
             InitializeComponent();
-        }
-
-        public Mobile(Mainform main) : this()
-        {
             form1 = main;
         }
 

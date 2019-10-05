@@ -458,7 +458,7 @@
         private System.Windows.Forms.Button button_Quality;
         private System.Windows.Forms.Panel downpanel;
         private System.Windows.Forms.Button button_Finance;
-        public System.Windows.Forms.Label workSpaceLabel;
+        private System.Windows.Forms.Label workSpaceLabel;
         private System.Windows.Forms.Panel paneljob;
         private System.Windows.Forms.Label Progname;
         private System.Windows.Forms.Label labeluser;
@@ -487,7 +487,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ToolTip MainToolTip;
-        public System.Windows.Forms.Label issueLabel;
+        private System.Windows.Forms.Label issueLabel;
         private System.Windows.Forms.Button button_close;
     }
 }

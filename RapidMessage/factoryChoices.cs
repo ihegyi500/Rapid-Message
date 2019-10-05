@@ -5,66 +5,66 @@ namespace RapidMessage
 {
     public partial class factoryChoices : Form
     {
-        Mainform Form1;
+        Mainform main;
 
         public factoryChoices(Mainform main)
         {
             InitializeComponent();
-            Form1 = main;
+            this.main = main;
 
         }
 
         private void button_C1_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Cella 1";
+            main.setLoc("Cella 1");
             this.Close();
         }
 
         private void button_C2_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Cella 2";
+            main.setLoc("Cella 2");
             this.Close();
         }
 
         private void button_C3_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Cella 3";
+            main.setLoc("Cella 3");
             this.Close();
         }
 
         private void button_C4_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Cella 4";
+            main.setLoc("Cella 4");
             this.Close();
         }
 
         private void button_C6_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Cella 6";
+            main.setLoc("Cella 6");
             this.Close();
         }
 
         private void button_Log_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Logisztika";
+            main.setLoc("Logisztika");
             this.Close();
         }
 
         private void button_Maint_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Karbantartás";
+            main.setLoc("Karbantartás");
             this.Close();
         }
 
         private void button_Lab_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Labor";
+            main.setLoc("Labor");
             this.Close();
         }
 
         private void button_FinIns_Click(object sender, EventArgs e)
         {
-            Form1.workSpaceLabel.Text = "Végellenőrzés";
+            main.setLoc("Végellenőrzés");
             this.Close();
         }
     }

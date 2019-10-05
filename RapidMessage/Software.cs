@@ -1,13 +1,10 @@
-﻿using System.Drawing;
-
-namespace RapidMessage
+﻿namespace RapidMessage
 {
     public partial class Software : Mobile
     {
         public Software(Mainform main) : base(main)
         {
             InitializeComponent();
-            Mainlabel.Text = "Szoftverrel kapcsolatos?";
         }
 
         protected override void IssueButtonChanger()

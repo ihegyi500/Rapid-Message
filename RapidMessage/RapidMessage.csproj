@@ -61,6 +61,7 @@
     <Compile Include="Mainform.Designer.cs">
       <DependentUpon>Mainform.cs</DependentUpon>
     </Compile>
+    <Compile Include="MessageHandler.cs" />
     <Compile Include="Mobile.cs">
       <SubType>Form</SubType>
     </Compile>

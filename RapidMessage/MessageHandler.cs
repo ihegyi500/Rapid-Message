@@ -25,18 +25,20 @@ namespace RapidMessage
 
             if (form.getLoc() == "" || form.getType() == "" || form.getName() == "")
             {
+                string errMsg = "Hiba!\n";
                 if (form.getLoc() == "")
-                    MessageBox.Show("Hiba! Probléma helyének megjelölése kötelező! (1-es lépés)\n" +
+                    errMsg += "Probléma helyének megjelölése kötelező!(1-es lépés)\n" +
                                     "Error! Missing location! (Step 1)\n" +
-                                    "Помилка! Відсутнє місце розташування! (Крок 1)\n", "Email küldés hiba!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    "Помилка! Відсутнє місце розташування! (Крок 1)\n\n";
                 if (form.getType() == "")
-                    MessageBox.Show("Hiba! Probléma megjelölése kötelező! (2-es lépés)\n" +
-                                    "Error! Missing issue! (Step 2)\n" +
-                                    "Помилка!Відсутнє питання!(Крок 2)", "Email küldés hiba!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    errMsg += "Probléma megjelölése kötelező! (2-es lépés)\n" +
+                                "Error! Missing issue! (Step 2)\n" +
+                                "Помилка!Відсутнє питання!(Крок 2)\n\n";
                 if (form.getName() == "")
-                    MessageBox.Show("Hiba! Név beírása kötelező! (3-as lépés)\n" +
-                                    "Error! Missing name! (Step 3)\n" +
-                                    "Помилка! Відсутнє ім'я! (Крок 3)", "Email küldés hiba!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    errMsg += "Név beírása kötelező! (3-as lépés)\n" +
+                                   "Error! Missing name! (Step 3)\n" +
+                                   "Помилка! Відсутнє ім'я! (Крок 3)";
+                MessageBox.Show(errMsg, "Email küldés hiba!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {

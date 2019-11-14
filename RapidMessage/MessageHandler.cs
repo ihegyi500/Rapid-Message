@@ -6,14 +6,12 @@ namespace RapidMessage
 {
     class MessageHandler
     {
-        Mainform form;
         //email és SMTP kliens oszályok példányosítása
         MailMessage mail = new MailMessage();
         SmtpClient SmtpServer = new SmtpClient();
 
         public MessageHandler(Mainform form)
         {
-            this.form = form;
             //email és SMTP attribútumok inicializálása
             mail.From = new MailAddress(Properties.Settings.Default.Sender);
             mail.To.Add(Properties.Settings.Default.Receivers);
@@ -21,8 +19,6 @@ namespace RapidMessage
             SmtpServer.Host = Properties.Settings.Default.Server;
             SmtpServer.Port = Properties.Settings.Default.Serverport;
             SmtpServer.DeliveryMethod = SmtpDeliveryMethod.Network;
-            mail.Body = "Kedves IT osztály!" + "<br>";
-
             if (form.getLoc() == "" || form.getType() == "" || form.getName() == "")
             {
                 string errMsg = "Hiba!\n";
@@ -46,11 +42,11 @@ namespace RapidMessage
                 {
                     mail.Subject = form.getLoc() + " - " + form.getType().Replace("\n", " ");
 
-                    mail.Body += "A feladatkörötökbe tartozó probléma/igénylés történt az alábbi helyen: " +
-                                     form.getLoc() + "<br>" +
-                                    "A hiba/igény típusa:<br>" + form.getType().Replace("\n", "<br>") +
+                    mail.Body = "Kedves IT osztály!<br>A feladatkörötökbe tartozó probléma/igénylés történt az alábbi helyen: " +
+                                     form.getLoc() + "<br>A hiba/igény típusa:<br>" 
+                                     + form.getType().Replace("\n", "<br>") +
                                     "<br>Egyéb megjegyzés: " + form.getDesc() +
-                                    "<br><br>Üdvözlettel:" + "<br>" +
+                                    "<br><br>Üdvözlettel:<br>" +
                                     form.getName() + "<br>" + form.getInfo();
                     Cursor.Current = Cursors.WaitCursor;
                     SmtpServer.Send(mail);
@@ -60,7 +56,6 @@ namespace RapidMessage
                                     "\n\tAn IT colleague will soon have a contact with the applicant!\n" +
                                     "\t\tЕлектронну пошту успішно надіслано!\n" +
                                     "\tКолега ІТ скоро зв'яжеться з заявником!");
-
                 }
                 catch (Exception ex)
                 {

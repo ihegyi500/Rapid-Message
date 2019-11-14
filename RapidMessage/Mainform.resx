@@ -131,7 +131,7 @@
   <data name="button_delete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAAd0SU1FB+MECg0kL5TYyoQAAASFSURBVFhHtVi/a1RBEPbeu7unOS+KnQRBIaSJ
+        DAAACwwBP0AiyAAAAAd0SU1FB+MECg0kL5TYyoQAAASFSURBVFhHtVi/a1RBEPbeu7unOS+KnQRBIaSJ
         Jp5EMGBxSnoFC3sFL1prYWltpyBoCsFCVAS1sEgpCjZaKZg/wNIijb8wRL9vb2Yzs2/P+FP4eDvfzpv5
         3uzs7pktCwv9wqAJlMZOx9HudrdPl2UxKIpiUJbloNksOT7Xbrd6iW8jsYlcnoaK4WRLSIK2vkBwTu1m
         t9s53mg0vgKfgNWiaKzyCXwE1qqqfVJ8a++KrXMuj4pJX1BnohYMCZdRheezs/srO9/vH22DfwpxL2kL
@@ -1104,7 +1104,7 @@ Phone
   <data name="button_PC.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAAd0SU1FB+MEDwYTNLUxvI8AAAGZSURBVGhD7de5SsRQFMbxQUGwcH0AH0FLQRA7
+        EAAACxABrSO9dQAAAAd0SU1FB+MEDwYTNLUxvI8AAAGZSURBVGhD7de5SsRQFMbxQUGwcH0AH0FLQRA7
         H8PORmzd3kBUBNFCcQOXQtFCEHwBUdFGsLKyFhQXRLFw+Z+ZG7lkzkwyZgwZOR/84N4hDPdLckOSs1gs
         FovFks00oDEmOTazWcVXTHvIbP5VkRNot5LvCZkvcoPRCG9Qi3RjAUspWcQw6uBHihwXhmXziKIiLXjG
         ETZS9IBB+AmuyEgE9Yp0QTZPe36WXmQh84XhTxJdkaBIW36WXmQhcjv7SbRHslbkFM0R1KdW1orIWuTW

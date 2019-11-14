@@ -9,6 +9,8 @@ namespace RapidMessage
         public Mainform()
         {
             InitializeComponent();
+            textBox_Name.Text = Properties.Settings.Default.LastUser;
+            textBox_Info.Text = Properties.Settings.Default.LastInfo;
         }
 
         //Kilépés gomb
@@ -158,5 +160,12 @@ namespace RapidMessage
         public string getName() { return textBox_Name.Text; }
         public string getInfo() { return textBox_Info.Text; }
         public void setLoc(string loc) { workSpaceLabel.Text = loc; }
+
+        private void Mainform_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.LastUser = textBox_Name.Text;
+            Properties.Settings.Default.LastInfo = textBox_Info.Text;
+            Properties.Settings.Default.Save();
+        }
     }
 }

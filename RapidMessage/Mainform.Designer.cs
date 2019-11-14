@@ -437,6 +437,7 @@
             this.Controls.Add(this.toppanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Mainform";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Mainform_FormClosing);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);
             this.toppanel.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

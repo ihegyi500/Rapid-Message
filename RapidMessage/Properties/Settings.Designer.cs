@@ -25,54 +25,6 @@ namespace RapidMessage.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("kunsziget.scanners@federalmogul.com")]
-        public string Sender {
-            get {
-                return ((string)(this["Sender"]));
-            }
-            set {
-                this["Sender"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("RapidMessage@fedmog.onmicrosoft.com")]
-        public string Receivers {
-            get {
-                return ((string)(this["Receivers"]));
-            }
-            set {
-                this["Receivers"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("134.238.225.222")]
-        public string Server {
-            get {
-                return ((string)(this["Server"]));
-            }
-            set {
-                this["Server"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("25")]
-        public int Serverport {
-            get {
-                return ((int)(this["Serverport"]));
-            }
-            set {
-                this["Serverport"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string LastUser {
             get {
@@ -92,6 +44,53 @@ namespace RapidMessage.Properties {
             }
             set {
                 this["LastInfo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("xxx@xxx.com")]
+        public string Sender {
+            get {
+                return ((string)(this["Sender"]));
+            }
+            set {
+                this["Sender"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("xxx@xxx.com")]
+        public string Receivers {
+            get {
+                return ((string)(this["Receivers"]));
+            }
+            set {
+                this["Receivers"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("xxx.xxx.xxx.xxx")]
+        public string Server {
+            get {
+                return ((string)(this["Server"]));
+            }
+            set {
+                this["Server"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public int Serverport {
+            get {
+                return ((int)(this["Serverport"]));
+            }
+            set {
+                this["Serverport"] = value;
             }
         }
     }

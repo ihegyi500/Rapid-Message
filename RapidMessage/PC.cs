@@ -6,7 +6,6 @@
         {
             InitializeComponent();
         }
-
         protected override void IssueButtonChanger()
         {
             form1.MiddleButtonFunc("PC-vel/laptoppal kapcsolatos probléma");
